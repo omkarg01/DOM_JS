@@ -44,6 +44,7 @@ for (const each of grid){
 ### Output
 
 ['iPhone', 'Mac', 'iPad', 'Watch', 'AirPods', 'Music', 'TV']
+---
 
 3. Webiste Name: [Youtube Support](https://support.google.com/youtube/)
 
@@ -72,6 +73,8 @@ faq[0].appendChild(sec);
 
 ![Output](./images/Pic5.png)
 
+---
+
 4. Webiste Name: [OnePlus](https://www.oneplus.in/support)
 
 ### Topics
@@ -86,10 +89,16 @@ faq[0].appendChild(sec);
 
       Change the contact number
 
+```js
+const elem = document.querySelector(".one-tel-number.service-number");
+elem.innerText = "+91 6366256689";
+```
+
 ### Output
 
 ![Output](./images/Pic7.png)
 
+---
 5. Webiste Name: [Samsung](https://www.samsung.com/in/offer/online/samsung-fest/)
 
 ### Topics
