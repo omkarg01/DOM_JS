@@ -113,9 +113,17 @@ elem.innerText = "+91 6366256689";
 
      Target the main div of card and change the Button text to Check out
 
+
+```js
+const btn = document.querySelector(".diwali-deals-product-sale-btn");
+btn.innerText = "Check Out";
+```
+
 ### Output
 
 ![Output](./images/Pic9.png)
+
+---
 
 6. Webiste Name: [Adidas](https://www.adidas.co.in/)
 
