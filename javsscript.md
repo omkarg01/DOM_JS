@@ -224,10 +224,17 @@ for (let i= 0; i < lang.length; i++){
 
     Change the font family of the text to monospace and text color to the logo’s background color.
 
+```js
+const elem = document.getElementsByClassName("display-heading-1");
+elem[0].style.fontFamily = "Monospace";
+elem[0].style.color = "red";
+```
+
 ### Output
 
 ![Output](./images/Pic17.png)
 
+---
 10. Webiste Name: [Freecodecamp](https://www.freecodecamp.org/)
 
 ### Topics
