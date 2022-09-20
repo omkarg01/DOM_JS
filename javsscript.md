@@ -151,6 +151,8 @@ search.addEventListener("mouseover",mouseHoverFunction);
 
 ![Output](./images/Pic11.png)
 
+---
+
 7. Webiste Name: [MDN Web Docs](https://developer.mozilla.org/en-US/)
 
 ### Topics
@@ -166,9 +168,18 @@ search.addEventListener("mouseover",mouseHoverFunction);
      To Search a topic in the MDN Search bar.
      First add a text to search in the search bar and then hit the submit search button to search the docs using DOM
 
+```js
+const inp = document.querySelector("#hp-search-input");
+inp.value = "CSS Selectors";
+const form = document.querySelector("#hp-search-form");
+form.submit();
+```
+
 ### Output
 
 ![Output](./images/Pic13.png)
+
+---
 
 8. Webiste Name: [Google](https://www.google.com/)
 
