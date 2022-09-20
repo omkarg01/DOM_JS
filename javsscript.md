@@ -195,9 +195,20 @@ form.submit();
 
      Remove alternate languages from the home page languages listed
 
+```js
+let lang = document.querySelectorAll(".z4hgWe > a");
+for (let i= 0; i < lang.length; i++){
+    if ( i % 2 === 0){
+        lang[i].remove();
+    }
+}
+```
+
 ### Output
 
 ![Output](./images/Pic15.png)
+
+---
 
 9. Webiste Name: [Code Wars](https://www.codewars.com/)
 
