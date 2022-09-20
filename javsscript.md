@@ -51,6 +51,7 @@ for (const each of grid){
 
     - Get Element By Id, Create Element, Create Text Node, Append Child
 
+
 ### Sample Image
 
 ![Sample One](./images/Pic4.png)
@@ -58,6 +59,14 @@ for (const each of grid){
 ### Tasks
 
      Add another FAQ 'My New FAQ' to the list
+
+```js
+const faq = document.getElementsByClassName("accordion-homepage");
+const sec = document.createElement("section");
+sec.className = "parent";
+sec.innerHTML = '<h3 role="button" tabindex="0" aria-expanded="false" aria-label="Policy, safety and copyright">My New FAQ<svg class="up" viewBox="0 0 24 24"><path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path></svg><svg class="down" viewBox="0 0 24 24"><path d="M7.41 7.84L12 12.42l4.59-4.58L18 9.25l-6 6-6-6z"></path></svg></h3>';
+faq[0].appendChild(sec);
+```
 
 ### Output
 
