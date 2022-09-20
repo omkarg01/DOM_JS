@@ -249,9 +249,19 @@ elem[0].style.color = "red";
 
     Target the button and change background colour on mouseover
 
+```js
+const btn = document.getElementsByClassName("login-btn-text")[1];
+function changeColor(){
+    btn.style.backgroundColor = "red";
+}
+btn.addEventListener("mouseover", changeColor);
+```
+
 ### Output
 
 ![Output](./images/Pic19.png)
+
+---
 
 11. Webiste Name: [realme](https://www.realme.com/in/)
 
