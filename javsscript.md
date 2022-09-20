@@ -139,6 +139,14 @@ btn.innerText = "Check Out";
 
      Target the search box and on hover change thebackground color to red.
 
+```js
+const search = document.querySelector(".searchinput___19uW0");
+function mouseHoverFunction(){
+    search.style.backgroundColor = "red";
+};
+search.addEventListener("mouseover",mouseHoverFunction);
+```
+
 ### Output
 
 ![Output](./images/Pic11.png)
