@@ -23,6 +23,8 @@ document.getElementsByClassName("color-base-70 mb-4")[1].textContent = "Problem 
 
 ![Output](./Output/1st_assgn.png)
 
+---
+
 2. Website Name: [Apple](https://support.apple.com/en-in)
 
 ### Task
@@ -30,6 +32,14 @@ document.getElementsByClassName("color-base-70 mb-4")[1].textContent = "Problem 
 ![Store](./images/Picture_3.png)
 
 ### Fetch all the product name and store in an array
+
+```js
+const grid = document.getElementsByClassName("as-imagegrid-item-title");
+let devices = [];
+for (const each of grid){
+    devices.push(each.textContent.replace(" Support", ""));
+};
+```
 
 ### Output
 
