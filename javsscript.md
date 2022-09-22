@@ -277,9 +277,16 @@ btn.addEventListener("mouseover", changeColor);
 
     change the realme logo to ineuron logo
 
+```js
+const logo = document.querySelector(".icon.icon-logo.in");
+logo.style.backgroundImage = "url(https://ineuron.ai/images/ineuron-logo.png)";
+```
+
 ### Output
 
 ![Output](./images/Pic21.png)
+
+---
 
 12. Webiste Name: [Github](https://github.com/)
 
@@ -294,12 +301,19 @@ btn.addEventListener("mouseover", changeColor);
 ### Tasks
 
      change the background colour of the button to blue.
+     
+```js
+const btn = document.querySelector(".btn.btn-sm.btn-primary");
+btn.style.background = "blue";
+```
 
 ### Output
 
-![Output](./images/Pic23.png)
+![Output](./images/btn.png)
 
-13. Webiste Name: [Hackerrank](https://www.hackerrank.com/)
+---
+
+13.  Webiste Name: [Hackerrank](https://www.hackerrank.com/)
 
 ### Topics
 
@@ -313,9 +327,16 @@ btn.addEventListener("mouseover", changeColor);
 
 Target the top description and change “Matching developers with great companies” to ‘JSBOOTCAMP“.
 
+```js
+const text = document.querySelector("#post-5780 .fl-heading-text");
+text.textContent = "JSBOOTCAMP";
+```
+
 ### Output
 
 ![Output](./images/Pic25.png)
+
+---
 
 14. Webiste Name: [Asus](https://www.asus.com/in/)
 
@@ -331,9 +352,16 @@ Target the top description and change “Matching developers with great companie
 
        change the fontsize of “Hot Deals” to 80px
 
+```js
+const text  = document.querySelector(".HotDealsAll__Heading__2fIbe");
+text.style.fontSize = "80px";
+```
+
 ### Output
 
 ![Output](./images/Pic27.png)
+
+---
 
 15. Webiste Name: [Dell](https://www.dell.com/en-in/shop/deals/laptop-deals?gacd=10415953-9016-5761040-285981356-0&dgc=ST&gclid=Cj0KCQjwguGYBhDRARIsAHgRm4-XUDMhhVNyHXb3s1gY4ZBzORr_d9Se-buhJwy7asyUe7YdqEA11eEaAt6UEALw_wcB&gclsrc=aw.ds&nclid=BxjBlpBQsX6pjSHh-L8YYSU77EpfXRkG1AGMB5Wbeu386ykspfrPDnfx_DdFau20)
 
@@ -349,9 +377,16 @@ Target the top description and change “Matching developers with great companie
 
        Convert the text “G15 Gaming Laptop” from left to right
 
+```js
+const lap = document.querySelector("#d560824win9b");
+lap.querySelector(".ps-title").style.textAlign = "right";
+```
+
 ### Output
 
 ![Output](./images/Pic29.png)
+
+---
 
 16. Webiste Name: [Vercel](https://vercel.com/)
 
@@ -367,9 +402,16 @@ Target the top description and change “Matching developers with great companie
 
       change the heading “Start with the developer” to “Start with Scratch”
 
+```js
+const text = document.querySelector(".section-title_title__VEDfK");
+text.textContent = "Start with scratch";
+```
+
 ### Output
 
 ![Output](./images/Pic31.png)
+
+---
 
 17. Webiste Name: [Sony](https://www.sony.co.in/)
 
@@ -385,9 +427,16 @@ Target the top description and change “Matching developers with great companie
 
      change the button text To current Date.
 
+```js
+const button = document.querySelector(".btn-container")
+button.innerHTML = new Date;
+```
+
 ### Output
 
 ![Output](./images/Pic32.png)
+
+---
 
 18. Webiste Name: [Philips](https://www.philips.co.in/)
 
@@ -403,9 +452,16 @@ Target the top description and change “Matching developers with great companie
 
     change the background colour blue to orange
 
+```js
+const footer = document.querySelector(".p-footer");
+footer.style.backgroundColor = "orange";
+```
+
 ### Output
 
 ![Output](./images/Pic35.png)
+
+---
 
 19. Webiste Name: [Canon](https://in.canon/)
 
@@ -421,9 +477,15 @@ Target the top description and change “Matching developers with great companie
 
     extract the canon logo
 
+```js
+const imageSrc = document.querySelector(".navbar-brand > .logo").src;
+```
+
 ### Output
 
 ![Output](./images/Pic37.png)
+
+---
 
 20. Webiste Name: [Oppo](https://www.oppo.com/in/)
 
@@ -439,6 +501,12 @@ Target the top description and change “Matching developers with great companie
 
       Change the description colour black to orange
 
+```js
+const text = document.querySelector(".wide .desc");
+```
+
 ### Output
 
 ![Output](./images/Pic39.png)
+
+---
